@@ -17,18 +17,19 @@
             for available job opportunities that meet your criteria and send <br>
             your application by filling out the job Application Form <br>
             <br><br>
-            *Full Name:
+            <label>*Full Name:</label>
             <input type="text" name="Full Name" maxlength="22" placeholder="Enter your Full Name" required>
             <br><br><br>
-            *Email:
+            <label>*Email:</label>
             <input type="Email" name="Email" maxlength="32" placeholder="Enter your Email" required>
 
             <br><br><br>
-            *Age:
-            <input type="text" name="Age" maxlength="2" placeholder="Enter your Age" required>
+            <label>*Age:</label>
+            <input type="number" name="Age" maxlength="2" placeholder="Enter your Age" required>
 
             <br><br><br>
-            Which option is best describes your current role ?
+            <label>Which option is best describes your current role?</label>
+            <br><br>
             <select name="Your Current Role">
                 <option value="Current Role" selected disabled>Current Role</option>
                 <option value="student">Student</option>
@@ -38,12 +39,15 @@
             </select>
 
             <br><br><br>
-            *Would you like list references?
+            <label>*Would you like list references?</label>
+            <br><br>
             <input type="radio" name="Ans" value="yes" checked>Yes
+            <br><br>
             <input type="radio" name="Ans" value="no">No
 
             <br><br><br>
-            Which position would you like to apply for?
+            <label>Which position would you like to apply for?</label>
+            <br><br>
             <select name="Job Position">
                 <option value="Select an Option" selected disabled>Select an Option</option>
                 <option value="Web Designer">Web Designer</option>
@@ -53,19 +57,25 @@
             </select>
 
             <br><br><br>
-            Which Programing languages do you know ?
-            <input type="checkbox" name="Programing languages Name" value="HTML" checked>HTML
-            <input type="checkbox" name="Programing languages Name" value="CSS">CSS
-            <input type="checkbox" name="Programing languages Name" value="JavaScript">JavaScript
-            <input type="checkbox" name="Programing languages Name" value="C++">C++
-            <input type="checkbox" name="Programing languages Name" value="Java">Java
-            <input type="checkbox" name="Programing languages Name" value="Python">Python
+            <label>Which Programing languages do you know?</label>
+            <br><br>
+            <input type="checkbox" name="Programing languages Name" value="HTML" checked> <label>HTML</label>
+            <br><br>
+            <input type="checkbox" name="Programing languages Name" value="CSS"><label>CSS</label>
+            <br><br>
+            <input type="checkbox" name="Programing languages Name" value="JavaScript"><label>JavaScript</label>
+            <br><br>
+            <input type="checkbox" name="Programing languages Name" value="C++"><label>C++</label>
+            <br><br>
+            <input type="checkbox" name="Programing languages Name" value="Java"><label>Java</label>
+            <br><br>
+            <input type="checkbox" name="Programing languages Name" value="Python"><label>Python</label>
 
             <br><br><br>
             <h2>Any Comment:</h2>
             <textarea name="Comment" maxlength="60" rows="4" cols="30" placeholder="Enter your Comment here...." required></textarea>
-            <br><br>
-            <button>Submit</button>
+            <br>
+            <input type="image" src="./button 1.png" width="300px">
     </center>
 </body>
 
